@@ -4,14 +4,82 @@
     "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj": {
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\CentricSoftwareWebApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj",
-        "projectName": "CentricSoftwareWebApi",
-        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\CentricSoftwareWebApi.Application.csproj",
+        "projectName": "CentricSoftwareWebApi.Application",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\CentricSoftwareWebApi.Application.csproj",
         "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\obj\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj",
+        "projectName": "CentricSoftwareWebApi.Domain",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +108,160 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj",
+        "projectName": "CentricSoftwareWebApi.Infrastructure",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj",
+        "projectName": "CentricSoftwareWebApi",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\CentricSoftwareWebApi.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\CentricSoftwareWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Application\\CentricSoftwareWebApi.Application.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Domain\\CentricSoftwareWebApi.Domain.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\CentricSoftwareWebApi\\CentricSoftwareWebApi.Infrastructure\\CentricSoftwareWebApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -4,12 +4,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentricSoftwareWebApi", "CentricSoftwareWebApi\CentricSoftwareWebApi.csproj", "{83198B0E-0873-4921-B470-E6533057389E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{703A1112-EACD-4559-A22D-21ADEEB90D60} = {703A1112-EACD-4559-A22D-21ADEEB90D60}
+		{6897BE34-603E-4000-8D8C-F5CC0ED92E05} = {6897BE34-603E-4000-8D8C-F5CC0ED92E05}
+		{645FFB99-15C9-4974-ADAA-465773278022} = {645FFB99-15C9-4974-ADAA-465773278022}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSoftwareWebApi.Application", "CentricSoftwareWebApi.Application\CentricSoftwareWebApi.Application.csproj", "{645FFB99-15C9-4974-ADAA-465773278022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentricSoftwareWebApi.Application", "CentricSoftwareWebApi.Application\CentricSoftwareWebApi.Application.csproj", "{645FFB99-15C9-4974-ADAA-465773278022}"
+	ProjectSection(ProjectDependencies) = postProject
+		{703A1112-EACD-4559-A22D-21ADEEB90D60} = {703A1112-EACD-4559-A22D-21ADEEB90D60}
+		{6897BE34-603E-4000-8D8C-F5CC0ED92E05} = {6897BE34-603E-4000-8D8C-F5CC0ED92E05}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSoftwareWebApi.Domain", "CentricSoftwareWebApi.Domain\CentricSoftwareWebApi.Domain.csproj", "{6897BE34-603E-4000-8D8C-F5CC0ED92E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentricSoftwareWebApi.Domain", "CentricSoftwareWebApi.Domain\CentricSoftwareWebApi.Domain.csproj", "{6897BE34-603E-4000-8D8C-F5CC0ED92E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSoftwareWebApi.Infrastructure", "CentricSoftwareWebApi.Infrastructure\CentricSoftwareWebApi.Infrastructure.csproj", "{703A1112-EACD-4559-A22D-21ADEEB90D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentricSoftwareWebApi.Infrastructure", "CentricSoftwareWebApi.Infrastructure\CentricSoftwareWebApi.Infrastructure.csproj", "{703A1112-EACD-4559-A22D-21ADEEB90D60}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6897BE34-603E-4000-8D8C-F5CC0ED92E05} = {6897BE34-603E-4000-8D8C-F5CC0ED92E05}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2EE92FAF-6284-4DA2-8A4A-BF27A0D61D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSoftwareWebApi.Test", "CentricSoftwareWebApi.Test\CentricSoftwareWebApi.Test.csproj", "{C933AFFC-5373-46E5-81EA-0B38682D04BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83198B0E-0873-4921-B470-E6533057389E} = {83198B0E-0873-4921-B470-E6533057389E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +52,16 @@ Global
 		{703A1112-EACD-4559-A22D-21ADEEB90D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703A1112-EACD-4559-A22D-21ADEEB90D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703A1112-EACD-4559-A22D-21ADEEB90D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C933AFFC-5373-46E5-81EA-0B38682D04BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C933AFFC-5373-46E5-81EA-0B38682D04BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C933AFFC-5373-46E5-81EA-0B38682D04BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C933AFFC-5373-46E5-81EA-0B38682D04BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C933AFFC-5373-46E5-81EA-0B38682D04BF} = {2EE92FAF-6284-4DA2-8A4A-BF27A0D61D83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A33694D-52AA-43A7-A23D-5065845C8CBE}

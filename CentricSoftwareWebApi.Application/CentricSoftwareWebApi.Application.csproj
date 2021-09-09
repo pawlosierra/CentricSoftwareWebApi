@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CentricSoftwareWebApi.Domain\CentricSoftwareWebApi.Domain.csproj" />
+    <ProjectReference Include="..\CentricSoftwareWebApi.Infrastructure\CentricSoftwareWebApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
 </Project>

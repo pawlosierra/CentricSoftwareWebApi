@@ -1,0 +1,9 @@
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\bin\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.deps.json
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\bin\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.dll
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\bin\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.pdb
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.csprojAssemblyReference.cache
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.AssemblyInfo.cs
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.dll
+C:\Users\JuanPawloSierra\source\repos\Projects\CentricSoftwareWebApi\CentricSoftwareWebApi.Domain\obj\Debug\netcoreapp3.1\CentricSoftwareWebApi.Domain.pdb

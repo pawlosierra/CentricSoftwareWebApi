@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CentricSoftwareWebApi.Domain/1.0.0": {
+        "runtime": {
+          "CentricSoftwareWebApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CentricSoftwareWebApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
